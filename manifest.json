@@ -1,0 +1,28 @@
+{
+	"short_name": "Salud y Derechos",
+	"name": "Salud Y Derechos",
+	"description": "Página web y App de Salud y Derechos",
+	"icons": [
+		{
+			"src": "Logo.ico",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "LogoChico.jpg",
+			"type": "image/jpg",
+			"sizes": "192x192"
+		},
+		{
+			"src": "LogoChico.jpg",
+			"type": "image/jpg",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#ff1744",
+	"background_color": "#ffffff",
+	"app_name": "Salud y Derechos",
+	"scope": "."
+}
