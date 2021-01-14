@@ -1,0 +1,93 @@
+{
+	"services": [
+		{
+			"title": "Cobertura de internación en geriátricos",
+			"sub_title": "LAS OBRAS SOCIALES Y PREPAGAS DEBEN CUBRIR LOS COSTOS DEL CUIDADO PARA LOS ADULTOS MAYORES",
+			"summary": "Mi trabajo consiste en garantizar la cobertura por parte de las obras sociales y prepagas para que cumplan con la internación, ya sea en geriátrico o domiciliaria, con cuidadores, asistencia y sistemas de apoyo; así como los insumos, medicamentos, sillas de ruedas, camas ortopédicas, etc.",
+			"list": [
+				"Coberturas de Salud.",
+				"Internación en geriátricos.",
+				"Internación domiciliaria.",
+				"Asistencia domiciliaria.",
+				"Cuidadores.",
+				"Sistemas de Apoyo.",
+				"Insumos.",
+				"Medicamentos.",
+				"Sillas De Ruedas.",
+				"camas ortopédicas.",
+				"Pañales.",
+				"Colchón Anti Escaras.",
+				"Andadores."
+			],
+			"description": "Se puede conseguir que las obras sociales o las prepagas asuman estos costos en forma rápida y lógica al iniciar una acción de amparo por prestaciones de Salud, por discapacidad o ambas.",
+			"regulatory_frame": "Aplicación de la Convención Interamericana sobre derechos de las Personas Adultas Mayores: Artículo 19 Derecho a la salud La persona mayor tiene derecho a su salud física y mental, sin ningún tipo de discriminación."
+		},
+		{
+			"title": "Discapacidad: Niños, Adolescentes, Adultos y Adultos Mayores",
+			"sub_title": "NO ES EL DISCAPACITADO EL QUE DEBE ADAPTARSE A LA SOCIEDAD, SINO LA SOCIEDAD LA QUE DEBE DEBE ADAPTARSE A TODO",
+			"summary": "Mi deber es brindarle ciertas facilitaciones a la hora de cuidar y/o acompañar a una persona con discapacidad. Entre otras cosas le conseguiremos la medicación al 100%, haremos garantia de su derecho de acceso a la educación (profesores niveladores, ntegradores, y apoyos en general), etc.",
+			"list": [
+				"Internación en geriátricos.",
+				"Internación domiciliaria.",
+				"Asistencia domiciliaria, Cuidadores, Sistemas de Apoyo, acompañantes terapéuticos.",
+				"Medicación al 100%.",
+				"Insumos.",
+				"Sillas de ruedas.",
+				"Camas ortopédicas.",
+				"Pañales.",
+				"Colchón antiescaras.",
+				"Andadores.",
+				"Derecho a la educación (profesores niveladores, integradores, apoyos en general).",
+				"Terapias y prestaciones.",
+				"Interacción en centros de día.",
+				"Transporte."
+			],
+			"description": "Se puede conseguir que las obras sociales o las prepagas asuman estos costos en forma rápida y lógica al iniciar una acción de amparo por prestaciones de Salud, por discapacidad o ambas.",
+			"regulatory_frame": "Convención sobre los derechos de las personas con discapacidad: Artículos 24, 25, y 26."
+		},
+		{
+			"title": "Salud en General",
+			"sub_title": "EL DERECHO A LA SALUD ES ALGO QUE NINGUNA DISPOSICIÓN O LEY PUEDE NEGAR NI RESTRINGIR",
+			"summary": "",
+			"list": [
+				"Tratamientos de enfermedades poco frecuentes, y la continuidad de los mísmos.",
+				"Tratamientos de fertilidad.",
+				"Tratamientos por obesidad, cinturón gástrico.",
+				"Cobertura de medicamentos.",
+				"Continuidad de obra social o prepaga por jubilación o despido.",
+				"Rehabilitación física, mental, y adicciones.",
+				"Celíacos, y diabéticos.",
+				"Tratamientos en el exterior",
+				"HIV.",
+				"Identidad de género, tratamientos para reasignación de sexo desde el tratamiento hormonal, hasta la efectiva operación.",
+				"Coberturas por enfermedades crónicas.",
+				"Negativa a la cobertura de estudios, medicaciones y/o tratamientos con y sin obra social."
+			],
+			"description": "",
+			"regulatory_frame": "Tratados internacionales de derechos humanos que protegen al derecho de acceso a la salud, jurisprudencia y doctrina."
+		},
+		{
+			"title": "Los derechos del paciente",
+			"sub_title": "ES DEBER DE LAS OBRAS SOCIALES, Y EMPRESAS DE MEDICINA PREPAGA (ENTRE OTROS) AFILIAR A TODA PERSONA, SIN LÍMITE ALGUNO.",
+			"summary": "Conozca sus derechos como paciente. Clickee debajo para conocer algunos de ellos.",
+			"list": [
+				"A recibir atención médica inmediata y de calidad, de acuerdo con los recursos de la medicina moderna.",
+				"A que se respete su intimidad personal y su privacidad.",
+				"A recibir un trato digno y humano, sin importar su edad, sexo, religión, valores y/o creencias.",
+				"La historia clínica es propiedad del paciente (quien puede solicitarla y conocer sus detalles), y permanecerá en confidencialidad toda la información relacionada a su salud.",
+				"A elegir libremente el médico. En caso de estar afiliado a alguna obra social, empresa de medicina prepaga o plan de salud, la atención será conforme con la cobertura, pero siempre teniendo en cuenta las necesidades del paciente.",
+				"La PMO (Prestación Medica Obligaría) es un mínimo prestacional, no un limite para otorgar servicios, medicamentos, tratamientos, etc.",
+				"A recibir información verídica y comprensible acerca de su salud, los posibles tratamientos y sus consecuencias, efectos adversos y riesgos, lo que debe estar establecido claramente en el consentimiento informado.",
+				"A recibir una segunda opinión en todo lo relacionado a su salud.",
+				"A tomar sus propias decisiones relacionadas con la atención y los tratamientos.",
+				"A prestar o no su consentimiento, así como a retirarlo para la puesta en práctica de un procedimiento.",
+				"A negarse a recibir información y a abstenerse de participar en la toma de decisiones, así como designar a una persona para transferirle estos derechos.",
+				"A expresar su decisión sobre cuidados o tratamientos mediante un documento, en caso de que exista la posibilidad de no poder expresarla luego (decisiones anticipadas).",
+				"A decidir libremente si en un proyecto de investigación, sin interferir en la calidad de la atención que reciba. Si usted está siendo atendido en una institución universitaria, es posible que sea invitado a participar en proyectos o actividades de docencia o investigación médica, los cuales no se realizarán sin su previo consentimiento informado.",
+				"A recibir tratamientos para controlar el dolor, a tomar decisiones acerca de estos, y a recibir cuidados paliativos."
+			],
+			"description": "Entre otros derechos.",
+			"regulatory_frame": "Ley del Derecho del Paciente e Historia Clínica."
+		}
+	]
+}
