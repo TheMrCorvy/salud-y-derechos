@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme: Theme) =>
 	}),
 )
 
-const TrialCard = (props: Props) => {
+const TrialCard = ({ title, short_summary, complete_summary }: Props) => {
 	const classes = useStyles()
 
 	const [expanded, setExpanded] = useState(false)
@@ -53,12 +53,12 @@ const TrialCard = (props: Props) => {
 	return (
 		<Grid item xs={12} md={6}>
 			<Card className={classes.root}>
-				<CardHeader title={props.title} />
+				<CardHeader title={title} />
 
 				<CardActionArea onClick={handleExpandClick}>
 					<CardContent>
 						<Typography variant="body2" color="textSecondary" component="p">
-							{`"${props.short_summary} (...)`}
+							{`"${short_summary} (...)`}
 						</Typography>
 					</CardContent>
 					<CardActions disableSpacing>
@@ -74,10 +74,10 @@ const TrialCard = (props: Props) => {
 					<Collapse in={expanded} timeout="auto" unmountOnExit>
 						<CardContent>
 							<Typography variant="h6" gutterBottom style={{ marginBottom: 25 }}>
-								{props.title}
+								{title}
 							</Typography>
 
-							<Typography paragraph>"{props.complete_summary}"</Typography>
+							<Typography paragraph>"{complete_summary}"</Typography>
 						</CardContent>
 					</Collapse>
 				</CardActionArea>
