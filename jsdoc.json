@@ -10,7 +10,8 @@
 	},
 	"opts": {
 		"destination": "./docs",
-		"recurse": true
+		"recurse": true,
+		"template": "node_modules/better-docs/"
 	},
 	"tags": {
 		"allowUnknownTags": ["optional"]
