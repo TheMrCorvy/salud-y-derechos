@@ -12,16 +12,17 @@ import Footer from "./sections/Footer"
 
 import Drawer from "../components/navbars/Drawer"
 
+/**
+ * Layout of the app
+ * @alias Layout
+ */
 interface Props {
+	/**
+	 * the children components that will go inside the layout
+	 */
 	children: ReactElement
 }
-/**
- * In the Layout component is where the navbar, the footer, and the "backToTop" function are
- *
- * The AppNavbar component will bi decided dynamically based on the size of the screen, and the page that the user is visiting, that's why it is on it's own component
- * @param {Props} props for this component the props received are basically the children components
- * @returns {ReactElement}
- */
+
 export default function Layout(props: Props) {
 	return (
 		<React.Fragment>
