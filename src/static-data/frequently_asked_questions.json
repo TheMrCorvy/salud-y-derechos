@@ -1,0 +1,24 @@
+{
+	"faq": [
+		{
+			"question": "¿Qué es un Amparo?",
+			"answer": "Un amparo es una acción que sirve para proteger tus derechos fundamentales en situaciones donde es urgente tener una resolución judicial. \n Uno de esos derechos fundamentales es el derecho a la salud."
+		},
+		{
+			"question": "¿Dónde se presenta?",
+			"answer": "En el Juzgado de Primera Instancia (Federal o Provincial, según corresponda) del lugar donde tus derechos sean perjudicados."
+		},
+		{
+			"question": "¿De qué forma se hace?",
+			"answer": "Mediante un escrito presentado por un abogado/a que deberá contener datos personales del amparísta y del demandado, la descripción del acto que te perjudica, tu pedido en términos claros y precisos, y las pruebas que tengas."
+		},
+		{
+			"question": "¿Cómo es el procedimiento?",
+			"answer": "Es rápido. El Juez requiere un informe circunstanciado, y si la petición es procedente, dicta sentencia en un plazo breve."
+		},
+		{
+			"question": "¿En qué momento se puede hacer?",
+			"answer": "En cualquier momento del año, incluso cuando las dependencias judiciales están de vacaciones (asueto judicial)."
+		}
+	]
+}
