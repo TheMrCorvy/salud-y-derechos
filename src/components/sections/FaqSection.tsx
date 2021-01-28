@@ -54,9 +54,6 @@ const useStyles = makeStyles((theme: Theme) =>
 			paddingBottom: 30,
 			borderRadius: 10,
 		},
-		listBullet: {
-			marginBottom: 10,
-		},
 		steps: {
 			borderTopLeftRadius: 8,
 			borderTopRightRadius: 8,
