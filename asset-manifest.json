@@ -8,8 +8,8 @@
     "static/js/2.970325f9.chunk.js.map": "/salud-y-derechos/static/js/2.970325f9.chunk.js.map",
     "main.js": "/salud-y-derechos/static/js/main.f7efdeee.chunk.js",
     "main.js.map": "/salud-y-derechos/static/js/main.f7efdeee.chunk.js.map",
-    "runtime-main.js": "/salud-y-derechos/static/js/runtime-main.6a0984a8.js",
-    "runtime-main.js.map": "/salud-y-derechos/static/js/runtime-main.6a0984a8.js.map",
+    "runtime-main.js": "/salud-y-derechos/static/js/runtime-main.82ee320f.js",
+    "runtime-main.js.map": "/salud-y-derechos/static/js/runtime-main.82ee320f.js.map",
     "static/js/5.c4536feb.chunk.js": "/salud-y-derechos/static/js/5.c4536feb.chunk.js",
     "static/js/5.c4536feb.chunk.js.map": "/salud-y-derechos/static/js/5.c4536feb.chunk.js.map",
     "static/js/6.1bde0673.chunk.js": "/salud-y-derechos/static/js/6.1bde0673.chunk.js",
@@ -17,8 +17,8 @@
     "static/js/7.cac8f5e8.chunk.js": "/salud-y-derechos/static/js/7.cac8f5e8.chunk.js",
     "static/js/7.cac8f5e8.chunk.js.map": "/salud-y-derechos/static/js/7.cac8f5e8.chunk.js.map",
     "static/css/8.08f6eda6.chunk.css": "/salud-y-derechos/static/css/8.08f6eda6.chunk.css",
-    "static/js/8.ba9b928b.chunk.js": "/salud-y-derechos/static/js/8.ba9b928b.chunk.js",
-    "static/js/8.ba9b928b.chunk.js.map": "/salud-y-derechos/static/js/8.ba9b928b.chunk.js.map",
+    "static/js/8.80e24e8e.chunk.js": "/salud-y-derechos/static/js/8.80e24e8e.chunk.js",
+    "static/js/8.80e24e8e.chunk.js.map": "/salud-y-derechos/static/js/8.80e24e8e.chunk.js.map",
     "static/js/9.e706049a.chunk.js": "/salud-y-derechos/static/js/9.e706049a.chunk.js",
     "static/js/9.e706049a.chunk.js.map": "/salud-y-derechos/static/js/9.e706049a.chunk.js.map",
     "static/js/10.c4e86d6d.chunk.js": "/salud-y-derechos/static/js/10.c4e86d6d.chunk.js",
@@ -37,7 +37,7 @@
     "static/js/5.c4536feb.chunk.js.LICENSE.txt": "/salud-y-derechos/static/js/5.c4536feb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a0984a8.js",
+    "static/js/runtime-main.82ee320f.js",
     "static/js/5.c4536feb.chunk.js",
     "static/js/main.f7efdeee.chunk.js"
   ]
