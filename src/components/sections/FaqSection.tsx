@@ -61,6 +61,7 @@ const useStyles = makeStyles((theme: Theme) =>
 			borderTopLeftRadius: 8,
 			borderTopRightRadius: 8,
 		},
+		contactButton: { fontSize: "1rem", textDecoration: "underline" },
 	})
 )
 
@@ -141,7 +142,8 @@ export default function FaqSection() {
 										Recuerda que si tienes alguna otra duda, siempre puedes{" "}
 										<Typography component="span">
 											<Link
-												href="#"
+												component="button"
+												className={classes.contactButton}
 												onClick={() => dispatch(openFormModal())}
 											>
 												Contactarnos
