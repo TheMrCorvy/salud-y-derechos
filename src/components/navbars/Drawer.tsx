@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment, useEffect, useState } from "react"
 
 import {
 	ListItem,
@@ -20,10 +20,45 @@ import { RootStore } from "../../redux/store"
 import { closeDrawer, openDrawer } from "../../redux/actions/drawerActions"
 import { openFormModal } from "../../redux/actions/modalActions"
 
+let deferredPrompt: any
+
 export default function SwipeableTemporaryDrawer() {
 	const dispatch = useDispatch()
 
 	const open = useSelector((state: RootStore) => state.drawer.open)
+
+	const [installable, setInstallable] = useState(false)
+
+	useEffect(() => {
+		window.addEventListener("beforeinstallprompt", (e: Event) => {
+			// Prevent the mini-infobar from appearing on mobile
+			e.preventDefault()
+			// Stash the event so it can be triggered later.
+			deferredPrompt = e
+			// Update UI notify the user they can install the PWA
+			setInstallable(true)
+		})
+
+		window.addEventListener("appinstalled", () => {
+			// Log install to analytics
+			console.log("INSTALL: Success")
+		})
+	}, [])
+
+	const handleInstallClick = () => {
+		// Hide the app provided install promotion
+		setInstallable(false)
+		// Show the install prompt
+		deferredPrompt.prompt()
+		// Wait for the user to respond to the prompt
+		deferredPrompt.userChoice.then((choiceResult: any) => {
+			if (choiceResult.outcome === "accepted") {
+				console.log("User accepted the install prompt")
+			} else {
+				console.log("User dismissed the install prompt")
+			}
+		})
+	}
 
 	const contact = () => {
 		dispatch(closeDrawer())
@@ -103,6 +138,17 @@ export default function SwipeableTemporaryDrawer() {
 						<ListItemText primary="Compartir en Whatsapp" />
 					</ListItem>
 					<Divider />
+					{installable && (
+						<Fragment>
+							<ListItem button onClick={handleInstallClick}>
+								<ListItemIcon>
+									<WhatsAppIcon />
+								</ListItemIcon>
+								<ListItemText primary="Instalar App" />
+							</ListItem>
+							<Divider />
+						</Fragment>
+					)}
 				</List>
 			</div>
 		</SwipeableDrawer>
