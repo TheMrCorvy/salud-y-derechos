@@ -1,5 +1,5 @@
-import React, { useEffect } from "react"
-import { Grid } from "@material-ui/core"
+import React, {useEffect} from "react"
+import {Grid} from "@material-ui/core"
 
 import LandingHeader from "../components/sections/LandingHeader"
 import ContactSection from "../components/sections/ContactSection"
@@ -7,6 +7,7 @@ import ServicesSection from "../components/sections/ServicesSection"
 import DocumentationSection from "../components/sections/DocumentationSection"
 import AboutSection from "../components/sections/AboutSection"
 import JurisprudencesSection from "../components/sections/JurisprudencesSection"
+import FaqSection from "../components/sections/FaqSection"
 
 export default function LandingPage() {
 	useEffect(() => {
@@ -20,6 +21,9 @@ export default function LandingPage() {
 				</Grid>
 				<Grid item xs={12}>
 					<ContactSection />
+				</Grid>
+				<Grid item xs={12}>
+					<FaqSection />
 				</Grid>
 				<Grid item xs={12} id="services">
 					<ServicesSection />
