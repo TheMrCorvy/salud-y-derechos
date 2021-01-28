@@ -9,8 +9,12 @@ import {
 	StepLabel,
 	Step,
 	Stepper,
+	Link,
 } from "@material-ui/core"
 import { makeStyles, Theme, createStyles } from "@material-ui/core/styles"
+
+import { useDispatch } from "react-redux"
+import { openFormModal } from "../../redux/actions/modalActions"
 
 import { faq as faqJson } from "../../static-data/frequently_asked_questions.json"
 
@@ -61,6 +65,8 @@ const useStyles = makeStyles((theme: Theme) =>
 )
 
 export default function FaqSection() {
+	const dispatch = useDispatch()
+
 	const classes = useStyles()
 
 	const [activeStep, setActiveStep] = useState(0)
@@ -132,7 +138,15 @@ export default function FaqSection() {
 							{activeStep === faqs.length && (
 								<Paper square elevation={0} className={classes.resetContainer}>
 									<Typography>
-										All steps completed - you&apos;re finished
+										Recuerda que si tienes alguna otra duda, siempre puedes{" "}
+										<Typography component="span">
+											<Link
+												href="#"
+												onClick={() => dispatch(openFormModal())}
+											>
+												Contactarnos
+											</Link>
+										</Typography>
 									</Typography>
 									<Button onClick={handleReset} className={classes.button}>
 										Volver al Principio
