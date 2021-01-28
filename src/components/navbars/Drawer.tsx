@@ -14,6 +14,7 @@ import TwitterIcon from "@material-ui/icons/Twitter"
 import WhatsAppIcon from "@material-ui/icons/WhatsApp"
 import ContactMailIcon from "@material-ui/icons/ContactMail"
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import AssignmentReturnedIcon from "@material-ui/icons/AssignmentReturned"
 
 import { useSelector, useDispatch } from "react-redux"
 import { RootStore } from "../../redux/store"
@@ -142,7 +143,7 @@ export default function SwipeableTemporaryDrawer() {
 						<Fragment>
 							<ListItem button onClick={handleInstallClick}>
 								<ListItemIcon>
-									<WhatsAppIcon />
+									<AssignmentReturnedIcon />
 								</ListItemIcon>
 								<ListItemText primary="Instalar App" />
 							</ListItem>
