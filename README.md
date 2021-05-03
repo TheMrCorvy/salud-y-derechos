@@ -1,11 +1,14 @@
 # salud-y-derechos
-the official web page of Salud Y Derechos
 
 
 Instrucciones para hacer Deploy
 
 Hay solo un branch (master) que está sincronizado con vercel, y por el otro lado, está instalado el paquete de gh-pages
 Para hacer deploy, hay que commitear los cambios a origin master, y después ejecutar "npm run deploy"
+
+
+
+
 
 Dominios:
 
