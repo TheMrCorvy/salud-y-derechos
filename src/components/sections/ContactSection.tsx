@@ -61,7 +61,7 @@ export default function ContactSection() {
 							¿Cómo Contactar?
 						</Typography>
 						<ul>
-							<li className={classes.liBullet}>
+							{/* <li className={classes.liBullet}>
 								<Typography variant="body2" component="p">
 									Mediante número de teléfono (oficina):{" "}
 									<Typography
@@ -72,7 +72,7 @@ export default function ContactSection() {
 										3220-2678
 									</Typography>
 								</Typography>
-							</li>
+							</li> */}
 							<li className={classes.liBullet}>
 								<Typography variant="body2" component="p">
 									A través de WhatsApp:{" "}

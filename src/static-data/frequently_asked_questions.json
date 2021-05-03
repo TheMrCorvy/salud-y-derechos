@@ -2,23 +2,23 @@
 	"faq": [
 		{
 			"question": "¿Qué es un Amparo?",
-			"answer": "Un amparo es una acción que sirve para proteger tus derechos fundamentales en situaciones donde es urgente tener una resolución judicial. \n Uno de esos derechos fundamentales es el derecho a la salud."
+			"answer": "Un amparo es una acción legal cuyo fin es el de proteger tus derechos fundamentales amparados por la Constitución Nacional y leyes especiales, en situaciones donde es urgente tener una resolución judicial. Uno de esos derechos fundamentales es el derecho a la salud."
 		},
 		{
 			"question": "¿Dónde se presenta?",
-			"answer": "En el Juzgado de Primera Instancia (Federal o Provincial, según corresponda) del lugar donde tus derechos sean perjudicados."
+			"answer": "En la Justicia Federal o Provincial, (según corresponda) del lugar donde tus derechos no sean respetados."
 		},
 		{
 			"question": "¿De qué forma se hace?",
-			"answer": "Mediante un escrito presentado por un abogado/a que deberá contener datos personales del amparísta y del demandado, la descripción del acto que te perjudica, tu pedido en términos claros y precisos, y las pruebas que tengas."
+			"answer": "Mediante un juicio presentado por un abogado/a que deberá contener datos personales del amparísta y del demandado, la descripción del acto que te perjudica, tu pedido en términos claros y precisos, y las pruebas que tengas."
 		},
 		{
 			"question": "¿Cómo es el procedimiento?",
-			"answer": "Es rápido. El Juez requiere un informe circunstanciado, y si la petición es procedente, dicta sentencia en un plazo breve."
+			"answer": "Es un juicio rápido. El Juez requiere un informe circunstanciado, puede producir prueba, y si la petición es procedente, dicta sentencia o medidas cautelares en un plazo breve."
 		},
 		{
 			"question": "¿En qué momento se puede hacer?",
-			"answer": "En cualquier momento del año, incluso cuando las dependencias judiciales están de vacaciones (asueto judicial)."
+			"answer": "En cualquier momento del año, incluso cuando las dependencias judiciales están de vacaciones (feria judicial)."
 		}
 	]
 }
