@@ -2,11 +2,11 @@
 	"faq": [
 		{
 			"question": "¿Qué es un Amparo?",
-			"answer": "Un amparo es una acción legal cuyo fin es el de proteger tus derechos fundamentales amparados por la Constitución Nacional y leyes especiales, en situaciones donde es urgente tener una resolución judicial. Uno de esos derechos fundamentales es el derecho a la salud."
+			"answer": "Un amparo es una acción legal cuyo fin es el de proteger tus derechos fundamentales amparados por la Constitución Nacional y leyes especiales, en situaciones donde es urgente tener una resolución judicial. Uno de esos derechos fundamentales es el derecho a la salud. Definición:  Artículo 43.- Toda persona puede interponer acción expedita y rápida de amparo, siempre que no exista otro medio judicial más idóneo, contra todo acto u omisión de autoridades públicas o de particulares, que en forma actual o inminente lesione, restrinja, altere o amenace, con arbitrariedad o ilegalidad manifiesta, derechos y garantías reconocidos por esta Constitución, un tratado o una ley. En el caso, el juez podrá declarar la inconstitucionalidad de la norma en que se funde el acto u omisión lesiva."
 		},
 		{
 			"question": "¿Dónde se presenta?",
-			"answer": "En la Justicia Federal o Provincial, (según corresponda) del lugar donde tus derechos no sean respetados."
+			"answer": "En la Justicia Federal, Justicia Provincial, o de la Ciudad de Buenos Aires (según corresponda) del lugar donde tus derechos no sean respetados."
 		},
 		{
 			"question": "¿De qué forma se hace?",
@@ -18,7 +18,7 @@
 		},
 		{
 			"question": "¿En qué momento se puede hacer?",
-			"answer": "En cualquier momento del año, incluso cuando las dependencias judiciales están de vacaciones (feria judicial)."
+			"answer": "En cualquier momento del año, incluso cuando las dependencias judiciales están de vacaciones (feria judicial), debiendo estar debidamente justificado."
 		}
 	]
 }
