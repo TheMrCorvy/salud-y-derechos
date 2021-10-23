@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react"
+import { Fragment, useState, useEffect } from "react"
 import { Container, Grid, Typography } from "@material-ui/core"
 import PartnerCard from "../components/cards/PartnerCard"
 
@@ -11,6 +11,7 @@ import { studies as studiesJson } from "../static-data/studies.json"
 import StudyFormationCard from "../components/cards/StudyFormationCard"
 
 import AboutSection from "../components/sections/AboutSection"
+import LawsSection from "../components/sections/LawsSection"
 
 type Study = {
 	course_name: String
@@ -22,7 +23,7 @@ type Study = {
 const useStyles = makeStyles(() =>
 	createStyles({
 		container: {
-			paddingTop: "5rem",
+			paddingTop: "7rem",
 		},
 		title: {
 			textAlign: "center",
@@ -30,7 +31,7 @@ const useStyles = makeStyles(() =>
 		pos: {
 			marginBottom: 12,
 		},
-	}),
+	})
 )
 
 function AboutPage(): JSX.Element {
@@ -80,6 +81,9 @@ function AboutPage(): JSX.Element {
 					</Grid>
 					<Grid item xs={12}>
 						<AboutSection showLink={false} title="Amparos y otros Logros" />
+					</Grid>
+					<Grid item xs={12}>
+						<LawsSection />
 					</Grid>
 				</Grid>
 			</Container>
