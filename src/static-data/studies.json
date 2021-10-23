@@ -1,6 +1,30 @@
 {
 	"studies": [
 		{
+			"course_name": "Posgrado de Discapacidad y Daños UBA Dr. Juan Seda ",
+			"course_official_title": "Posgrado UBA",
+			"topic": "Derechos Humanos",
+			"year_s": "2021"
+		},
+		{
+			"course_name": "Posgrado de Discapacidad y Derechos UBA Dr. Juan Seda ",
+			"course_official_title": "Posgrado UBA",
+			"topic": "Derechos Humanos",
+			"year_s": "2021"
+		},
+		{
+			"course_name": "Posgrado Avances y tensiones de los derechos de la niñez y adolescencia en la actualidad",
+			"course_official_title": "Posgrado UBA CASM",
+			"topic": "Derechos de la Niñez y adolescencia",
+			"year_s": "2021"
+		},
+		{
+			"course_name": "Posgrado de Derecho de Familia, niñez y adolescencia",
+			"course_official_title": "Posgrado UBA CASM",
+			"topic": "Derechos de Familia, Niñez y adolescencia",
+			"year_s": "2019 - 2020"
+		},
+		{
 			"course_name": "Curso de Posgrado: Interpretando los Derechos Humanos: sistema Interamericano y Sistema Europeo",
 			"course_official_title": "Posgrado UBA",
 			"topic": "Derechos Humanos",
