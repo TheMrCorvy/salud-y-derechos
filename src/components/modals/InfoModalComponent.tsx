@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import {
 	Button,
 	Dialog,
@@ -15,15 +14,7 @@ export default function InfoModalComponent() {
 	const infoModalState = useSelector((state: RootStore) => state.modal.infoModalOpen.open)
 	const service = useSelector((state: RootStore) => state.modal.infoModalOpen.service)
 
-	const regulatoryFrame = document.getElementById("regulatory-frame")
-
 	const dispatch = useDispatch()
-
-	useEffect(() => {
-		if (regulatoryFrame && service) {
-			regulatoryFrame.innerHTML = service.regulatory_frame
-		}
-	}, [service, regulatoryFrame])
 
 	const handleClose = () => {
 		dispatch(closeInfoModal())
