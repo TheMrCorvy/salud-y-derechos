@@ -41,7 +41,7 @@ const ServicesSection = () => {
 			<Grid container spacing={4} justify="center" className={classes.startSection}>
 				<Grid item xs={12} className={classes.cardTitle}>
 					<Typography variant="h4" gutterBottom>
-						Nustros Servicios
+						Nuestros Servicios
 					</Typography>
 				</Grid>
 				{services.length ? (

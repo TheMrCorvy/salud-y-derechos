@@ -33,7 +33,7 @@ export default function LandingPage() {
 					<DocumentationSection />
 				</Grid>
 				<Grid item xs={12} id="about-us">
-					<AboutSection showLink={true} title="Conócenos" />
+					<AboutSection showLink={true} title="Conocenos" />
 				</Grid>
 				<Grid item xs={12} id="jurisprudences">
 					<JurisprudencesSection />

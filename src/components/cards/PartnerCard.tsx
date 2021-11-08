@@ -35,13 +35,13 @@ const useStyles = makeStyles((theme: Theme) =>
 		expandOpen: {
 			transform: "rotate(180deg)",
 		},
-	}),
+	})
 )
 
 const TrialCard = () => {
 	const classes = useStyles()
 
-	const [expanded, setExpanded] = useState(false)
+	const [expanded, setExpanded] = useState(true)
 
 	const handleExpandClick = () => {
 		setExpanded(!expanded)
@@ -56,14 +56,6 @@ const TrialCard = () => {
 				title="Dr. Juan Pablo Corvalán"
 			/>
 			<CardActionArea onClick={handleExpandClick}>
-				<CardContent>
-					<Typography variant="body2" color="textSecondary" component="p">
-						Profesional con amplia trayectoria en abogacía especializado en Amparos de
-						Derecho de Salud, cobertura de enfermedades poco frecuentes, Derechos de las
-						Personas con Discapacidad, Derechos de (...)
-					</Typography>
-				</CardContent>
-
 				<CardActions disableSpacing>
 					<div
 						className={clsx(classes.expand, {
@@ -76,8 +68,12 @@ const TrialCard = () => {
 
 				<Collapse in={expanded} timeout="auto" unmountOnExit>
 					<CardContent>
-						<Typography variant="h6" gutterBottom style={{ marginBottom: 25 }}>
-							Dr. Juan Pblo Corvalán - Titular del Estudio
+						<Typography variant="h5" gutterBottom style={{ marginBottom: 25 }}>
+							Dr. Juan Pablo Corvalán - Titular del Estudio
+						</Typography>
+
+						<Typography paragraph variant="h6">
+							Abogado especializado en Derechos de Salud
 						</Typography>
 
 						<Typography paragraph>
